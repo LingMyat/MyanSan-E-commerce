@@ -14,7 +14,6 @@ Tech Documentation/Flow ရေးသားထားရခြင်းဖြစ�
 ```
 ## Code overview
 - `Customer Order Detail`
-```bash
 ပထမ အပတ်မှာတော့ code flow ကိုနား‌လည်အောင်ကြည့်ခိုင်းပြီး 
 customer panelဘက်က order details ကိုလုပ်ရပါတယ်။ 
 Orders တွေကိုlistပြတဲ့ နေရာမှာတော့ database ရဲ့
@@ -41,9 +40,7 @@ order idကပါလာမယ့် record ပို့ပေးလိုက်�
 ထည့်ပေးလိုက်ပြီးDetailကိုပြလိုက်ပါတယ်။Order list tableကြီးကို
 show လုပ်တာ hideလုပ်တာတွေကိုတော့ assetsထဲက jsရဲ့ customထဲမှာ 
 order_detail_view.js ဆိုတဲ့ fileမှာ ကြည့်နိုင်ပါတယ်။
-```
 - `Dynamic Breadcrumb-area`
-```bash
 After above feature ကျွန်တော် website ကိုလိုက်ကြည့်ရင်း
 breadcrumbမှာ urlတွေက အလုပ်မဖြစ်နေပဲ မရှိတဲ့
 page တွေကိုခေါ်သလို 404ပဲပြနေပါတယ်။ အဲ့တာကိုပြင်ဖို့codeကို ကြည့်လိုက်တော့
@@ -54,14 +51,13 @@ layouts ထဲက sharedထဲက breadcrumb-area.blade.php ထဲမှာက�
 Requestထဲက segment တွေနဲ့စစ်ပြီး dynamic ဖြစ်အောင်လုပ်ထားလိုက်ပါတယ်။
 နောက်ခါ pagesတွေ ထပ်တိုးဖြစ်ရင် အဲ့မှာdefineလုပ်လိုက်ရင်
 တစ်ခါတည်းခေါ်သုံးပြီးသား ဖြစ်သွားမှာပါ။
-```
 - `Product Magnifying`
-```bash
 Product detailတွေမှာ magnify effect အတွက်ကိုတော့ jqueryscript.net ကနေ 
 Product Carousel With magnifying Glass Effect - jQuery exzoom
 ဆိုတဲ့ pluginကိုသုံးထားပါတယ်။ အသုံးပြုရတာနဲ့နားလည်ရလွယ်ကူတာမလို့
 အရမ်းမရှင်းပြတော့ပါဘူး။ jqueryscript.netမှာ documentation ဖတ်လို့ရပါတယ်။
-```
 - `Checkout Page`
+
+
 
 
