@@ -7,7 +7,7 @@
 ```bash
 ဒီ markdownလေးကတော့ ကျွန်တော် MyanSanဆိုတဲ့ 
 E-commerce website မှာdeveloper အဖြစ်လုပ်နေစဉ်အတွင်း 
-ကျွန်တော်လုပ်ခဲ့ရတဲ့ features တွေအကြောင်းပဲဖြစ်ပါတယ်။
+ကျွန်တော်လုပ်ခဲ့ရတဲ့ features တွေအကြောင်းရယ်
 ကျွန်တော်ရေးခဲ့တဲ့  အပိုင်းတွေမှာ Bugs တွေ Errors တွေ
 တက်လာခဲ့ရင်  အလွယ်တစ်ကူပြင်ဆင်နိုင်ဖို့အတွက် 
 Tech Documentation/Flow ရေးသားထားရခြင်းဖြစ်ပါတယ်။
@@ -60,4 +60,28 @@ Product Carousel With magnifying Glass Effect - jQuery exzoom
 အရမ်းမရှင်းပြတော့ပါဘူး။ jqueryscript.netမှာ documentation ဖတ်လို့ရပါတယ်။
 
 - `Checkout Page`
+Checkout pageမှာကတော့ delivery Charges တွေကို
+Customer ရွေးလိုက်တဲ့ region တွေရယ် deli typeရယ် cusရဲ့product
+gross weight တွေပေါ်မူတည်ပြီး total delivery chargeကို တွက်ပေးရပါတယ်
+ဒီမှာလည်း customer ရွေးလိုက်တဲ့ Cityအပေါ်မူတည်ပြီး 
+သက်ဆိုင်ရာ Townships တွေကို database ကနေပြန်ပြပေးရတဲ့အတွက်
+ajax ကိုပဲသုံးရပြန်ပါတယ်။ ပထမဆုံးအနေနဲ့ Cities တွေကို
+database ကနေလှမ်းယူပြီး select ထဲမှာ options တွေအနေနဲ့ 
+loopပတ်ပြီး ပြလိုက်ပါတယ်။ Cities တွေရဲ့ select box ကို
+တန်ဖိုး change တိုင်း Townships dataတွေကို dynamic ထည့်မှာမလို့ 
+Cities select boxရဲ့ on change event မှာ ajaxကိုခေါ်သုံးလိုက်ပါတယ်
+response မှာview fileပဲပြန်ပေးချင်တာမလို့ options တွေရဲ့ 
+data attributeမှာ web.phpက urlကိုထည့်ပေးလိုက်ပါတယ်
+အဲ့ကနေမှ ရွေးလိုက်တဲ့ city idကို controller ကိုပို့ controller ကနေမှ
+City idနဲ့ townships record တွေပြန်ဆွဲထုတ်ပြီး view fileကိုပို့ပေးလိုက်ပါတယ်
+အဲ့ view fileမှာ townships တွေကို select boxပြန်လုပ်ပြီး checkout pageရဲ့ townships select boxနေရာမှာ အစားထိုးလိုက်ပါတယ်။
+ဒီနည်းနဲ့ townships dataတွေကို dynamic ကျကျယူလို့ရသွားပါတယ်။ townships ရဲ့ select boxမှာလည်း on change event နဲ့ delivery Charges တွေကို dynamic အနေနဲ့ ပြပေးပါတယ်။
+delivery မှာလည်း normal ရယ် premium ရယ်ရှိသေးတာမလို့ အဲ့အပေါ်မူတည်ပြီး deli chargesတွေကို dynamic ကျအောင်ပြန်လုပ်ပေးရပါတယ်။After that cus ရဲ့ products gross weight တွေက သတ်မှတ်ထားတာထပ်ကျော်နေရင် extra weight charges အနေနဲ့ထပ်ပေါင်းပြီး order totalမှာထည့် ပေါင်းပေးလိုက် ရပါတယ်။
+Finally checkout နှိပ်ပြီး order တင်လိုက်ရင် delivery Charges ပါတစ်ခါတည်းတွက်ပြီးသားဖြစ်သွားပါမယ်။
+
+- `Products Export With Image`
+Export to excelအတွက်မှ‌တော့ maatwebsite/excel ကိုသုံးထားပါတယ်။Heading တွေ description တွေရယ် အတွက်ပုံမှန်လိုသုံးထားပြီး ပုံတွေအတွက်ကိုတော့ drawing ကိုသုံးပြီး excelမှာ products တွေကို export လုပ်ပေးထားပါတယ်။
+
+- `Sending OTP`
+OTP feature ကတော့ register မလုပ်ခင် cus ထည့်လိုက်တဲ့ mail or phone ကို mail/sms နဲ့ OTP ပို့ပြီး Verify ပြန်လုပ်ပေးတဲ့ process ရေးပေးရတာဖြစ်ပါတယ်။Mail အတွက်ကိုတော့ ရုံးက gmailကိုပဲသုံးပြီး Sms အတွက်ကိုတော့ SMSPohကိုသုံးထားပါတယ်။
 
